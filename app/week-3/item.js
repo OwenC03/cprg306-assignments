@@ -1,6 +1,6 @@
-import React from 'react';
 
-function Item({name, quantity, category}){
+
+export default function Item({name, quantity, category}){
     return(
         <li>
             <div>
@@ -11,5 +11,3 @@ function Item({name, quantity, category}){
         </li>
     );
 }
-
-export default Item;
